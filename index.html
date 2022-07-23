@@ -415,12 +415,43 @@
 	<!-- Модальное окно-->
 	<div class="backdrop is-hidden" data-modal>
 		<div class="modal">
+			<form>
+				<p class="form-text">Оставьте свои данные, мы вам перезвоним</p>
+
+					<label class="label" for="name">Имя</label>
+					<div class="input-field">
+						<input class="input" type="text" name="name" id="name">
+						<svg class="input-icon">
+							<use href="./images/icons.svg#name" width="18px" height="18px"></use>
+						</svg>
+					</div>
+					
+					<label class="label" for="phone">Телефон</label>
+					<div class="input-field">
+						<input class="input" type="tel" name="tel-number" id="phone">
+						<svg class="input-icon">
+							<use href="./images/icons.svg#phone" width="18px" height="18px"></use>
+						</svg>
+					</div>					
+
+					<label class="label" for="email">Почта</label>
+					<div class="input-field">
+						<input class="input" type="email" name="email" id="email">
+						<svg class="input-icon">
+							<use href="./images/icons.svg#email" width="18px" height="18px"></use>
+						</svg>
+					</div>
+					
+					<label class="label" for="comments">Комментарий</label>
+					<textarea class="input-comments" name="comments" id="comments" placeholder="Введите текст"></textarea>
+			</form>
 			<button class="close-btn" data-modal-close>
 			<svg class="сlose-icon">
 				<use href="./images/icons.svg#close-black" width="18px" height="18px"></use>
 			</svg></button>
 		</div>
 	</div>
+	<script src="./js/subscription.js"></script>
 	<script src="./js/modal.js"></script>
 </body>
 </html>
