@@ -438,6 +438,7 @@ img {
     color: var(--accent-color);}
 
 .footer-follow{
+    display: block;
     margin-bottom: 20px;
     color: var(--white);}
 
